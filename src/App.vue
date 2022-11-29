@@ -24,7 +24,6 @@ async function searchNews() {
     defineHeadlines();
     return;
   }
-  console.log(`buscando por: ${value}`);
   const everything = await getEverything(search.value);
   news.value = everything.articles;
 }
