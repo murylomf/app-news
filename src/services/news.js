@@ -1,6 +1,6 @@
 import service from "./axios";
 
-const API_KEY = 'de12c4ed54344b23af94f71f27236505';
+const API_KEY = env.API_KEY;
 
 export async function getEverything(q) {
     let params = {
